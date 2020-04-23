@@ -65,7 +65,7 @@ Grant the service account owner permissions for the project:
         
 Create a service account key:
 
-    gcloud iam service-accounts keys create key.josn --iam-account master-chariot-275014@appspot.gserviceaccount.com
+    gcloud iam service-accounts keys create key.json --iam-account master-chariot-275014@appspot.gserviceaccount.com
 
 Navigate to the Gitlab project and go to Settings > CI/CD. Expand the `Variables` section, and click `Add Variable`. Create a variable called `GCLOUD_SERVICE_KEY`, pasting in the value from `key.json` you created above. Select the checkbox `Protect variable` and save.
 

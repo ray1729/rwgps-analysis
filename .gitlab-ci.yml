@@ -9,4 +9,10 @@ deploy-cloud-function:
     - gcloud auth activate-service-account --key-file ${HOME}/gcloud-service-key.json
     - gcloud functions deploy rwgps_analysis --region europe-west2 --entry-point HandleRequest --runtime go113 --memory 512MB --trigger-http --allow-unauthenticated --project "${GCLOUD_PROJECT}"
   only:
-    - master
+    refs:
+      - master
+    changes:
+      - go.mod
+      - go.sum
+      - rwgps.go
+
