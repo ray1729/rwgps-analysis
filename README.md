@@ -62,6 +62,9 @@ Grant the service account editor permissions for the project:
     gcloud projects add-iam-policy-binding master-chariot-275014 \
         --member serviceAccount:master-chariot-275014@appspot.gserviceaccount.com \
         --role roles/editor
+    gcloud projects add-iam-policy-binding master-chariot-275014 \
+        --member serviceAccount:master-chariot-275014@appspot.gserviceaccount.com \
+        --role roles/cloudfunctions.serviceAgent
         
 Create a service account key:
 
@@ -73,6 +76,6 @@ Create another variable called `GCLOUD_PROJECT` whose value is the name of your 
 
 Now navigate to Settings > Repository and expand the `Protected Branches` section. Verify that the `master` branch is protected, and has appropriate permissions. This is the branch we will deploy from.
 
- 
+That's it! Now when you push to `master`, a Gitlab CI/CD pipeline will be triggered to update the function.
 
       
