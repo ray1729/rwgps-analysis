@@ -57,7 +57,7 @@ Create a service account for Gitlab:
 
     gcloud iam service-accounts create gitlab --display-name "Gitlab CI/CD"
     
-Grant the service account editor permissions for the project:
+Grant the service account owner permissions for the project:
 
     gcloud projects add-iam-policy-binding master-chariot-275014 \
         --member serviceAccount:master-chariot-275014@appspot.gserviceaccount.com \
