@@ -61,10 +61,7 @@ Grant the service account editor permissions for the project:
 
     gcloud projects add-iam-policy-binding master-chariot-275014 \
         --member serviceAccount:master-chariot-275014@appspot.gserviceaccount.com \
-        --role roles/editor
-    gcloud projects add-iam-policy-binding master-chariot-275014 \
-        --member serviceAccount:master-chariot-275014@appspot.gserviceaccount.com \
-        --role roles/cloudfunctions.serviceAgent
+        --role roles/owner
         
 Create a service account key:
 
