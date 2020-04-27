@@ -144,6 +144,8 @@ github.com/ray1729/gpx-utils v0.0.0-20200422142427-b126a08a92e0 h1:E2+A3ktB4MfMj
 github.com/ray1729/gpx-utils v0.0.0-20200422142427-b126a08a92e0/go.mod h1:V6s+CJjliNVBNKu16nUvjOHbBPD6RDsuF+E2wkm5IY4=
 github.com/ray1729/gpx-utils v1.0.0 h1:ijwChVcJvD9LNLOlpFbkiNo6USumy7BoZg8dmc0jwFY=
 github.com/ray1729/gpx-utils v1.0.0/go.mod h1:V6s+CJjliNVBNKu16nUvjOHbBPD6RDsuF+E2wkm5IY4=
+github.com/ray1729/gpx-utils v1.1.0 h1:Vmon62HLfTJP5gXaLgWdGmjvmZ0og4+aTspBOwgiEiI=
+github.com/ray1729/gpx-utils v1.1.0/go.mod h1:V6s+CJjliNVBNKu16nUvjOHbBPD6RDsuF+E2wkm5IY4=
 github.com/rcrowley/go-metrics v0.0.0-20181016184325-3113b8401b8a/go.mod h1:bCqnVzQkZxMG4s8nGwiZ5l3QUCyqpo9Y+/ZMZ9VjZe4=
 github.com/rogpeppe/fastuuid v0.0.0-20150106093220-6724a57986af/go.mod h1:XWv6SoW27p1b0cqNHllgS5HIMJraePCO15w5zCzIWYg=
 github.com/rogpeppe/go-internal v1.3.0/go.mod h1:M8bDsm7K2OlrFYOpmOWEs/qY81heoFRclV5y23lUDJ4=
